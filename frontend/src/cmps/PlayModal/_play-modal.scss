@@ -1,2 +1,13 @@
-.play-modal{
+.play-modal {
+    button {
+        height: 45px;
+        background-color: rgb(118, 214, 142);
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 10px;
+        &:hover {
+            background-color: rgb(109, 194, 130);
+        }
+    }
 }
