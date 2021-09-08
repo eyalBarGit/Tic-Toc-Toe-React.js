@@ -19,11 +19,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ButtonAppBar() {
+export default function NavBar() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className='nav-bar flex-grow-1'>
       <AppBar position="static">
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
