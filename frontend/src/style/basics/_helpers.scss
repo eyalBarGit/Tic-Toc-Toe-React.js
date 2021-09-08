@@ -17,7 +17,7 @@
 
 .container {
     max-width: 1330px;
-    @media (max-width:1330px) {
+    @media (max-width: 1330px) {
         padding-right: 20px;
         padding-left: 20px;
     }
@@ -41,4 +41,16 @@
 
 .space-around {
     justify-content: space-around;
+}
+.flex-grow-1 {
+    flex-grow: 1;
+}
+.flex-grow-2 {
+    flex-grow: 2;
+}
+.flex-grow-3 {
+    flex-grow: 3;
+}
+.flex-grow-4 {
+    flex-grow: 4;
 }
