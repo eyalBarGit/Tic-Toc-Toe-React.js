@@ -23,7 +23,7 @@ export function NavBar() {
                 <li><button>Play 1 vs 1</button></li>
                 <li><button>1 vs Machine</button></li>
                 <li><button>About</button></li>
-                <li><button>log in</button></li>
+                <li><button>Sign in</button></li>
             </ul>
 
         </div>
