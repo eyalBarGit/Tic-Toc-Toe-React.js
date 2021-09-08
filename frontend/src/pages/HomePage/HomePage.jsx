@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router";
 import io from 'socket.io-client'
+import {NavBar} from "../../cmps/NavBar/NavBar";
 import { GameTypeModal } from './components/GameTypeModal/GameTypeModal'
 // import socketService from "../../service/socketService";
 
@@ -30,7 +31,7 @@ export function HomePage() {
 
   return (
     <div className="home-page">
-
+      <NavBar />
       <GameTypeModal closeModal={setModal} isModal={isModal} />
 
       <div className="players-name-section flex justify-center">
