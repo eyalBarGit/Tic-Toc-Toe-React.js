@@ -16,7 +16,7 @@ const winPositons = [
 
 async function checkWin(shape, positions) {
   let winner;
-  winPositons.forEach(function (winPosition) {
+  winPositons.forEach((winPosition) => {
     if (winPosition.every((winPos) => (positions.includes(winPos)))) {
       winner = shape
     }
