@@ -1,0 +1,33 @@
+.game-page {
+    height: 100vh;
+    background: url("../../assets/chalkboard-background.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    .main-content {
+        height: 100%;
+    }
+    .board-cover {
+        z-index: 50;
+        width: 550px;
+    }
+    .game-board {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hidden {
+        display: block;
+    }
+    .bacgkround {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+    }
+}

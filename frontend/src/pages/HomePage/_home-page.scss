@@ -1,0 +1,32 @@
+.home-page {
+    position: relative;
+    height: 100vh;
+    background: url("../../assets/home-background.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .players-name-section {
+        width: 100%;
+        position: absolute;
+        bottom: 10%;
+        input {
+            height: 45px;
+            width: 250px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            border: none;
+            padding-left: 10px;
+        }
+        button {
+            height: 45px;
+            background-color: rgb(118, 214, 142);
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 500;
+            &:hover {
+                background-color: rgb(109, 194, 130);
+            }
+        }
+    }
+}

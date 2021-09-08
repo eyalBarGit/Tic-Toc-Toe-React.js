@@ -1,0 +1,36 @@
+.square {
+    height: 250px;
+    .top-1,
+    .top-2,
+    .top-3,
+    .mid-1,
+    .mid-2,
+    .mid-3 {
+        height: 100%;
+        width: 100%;
+        border-bottom: 5px solid rgb(80, 238, 154);
+    }
+    .bottom-3,
+    .bottom-2,
+    .top-3,
+    .top-2,
+    .mid-3,
+    .mid-2 {
+        height: 100%;
+        width: 100%;
+        border-left: 5px solid rgb(80, 238, 154);
+    }
+
+    .turn-hover {
+        opacity: 0.3;
+    }
+    cursor: pointer;
+
+    @media (max-width: 540px) {
+        height: 100px;
+        width: 100px;
+        img {
+            width: 50px;
+        }
+    }
+}

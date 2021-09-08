@@ -1,0 +1,14 @@
+.app-header {
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 1px 7px 15px -5px #000000;
+    box-shadow: 1px 7px 15px -5px #000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    padding: 0 55px;
+    height: 50px;
+    .red {
+        color: red;
+    }
+}

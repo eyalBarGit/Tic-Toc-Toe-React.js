@@ -1,0 +1,17 @@
+// BASIC HELPERS
+@import "./basics/helpers";
+@import "./setUp/typography";
+@import "./setUp/vars";
+@import "./basics/base";
+
+@import "../cmps/Board/board";
+@import "../cmps/Board/Square/square";
+@import "../cmps/Board/WinModal/win-modal";
+@import "../cmps/AppHeader/app-header";
+@import "../pages/HomePage/home-page";
+@import "../pages/HomePage/components/GameTypeModal/game-type-modal";
+
+
+// PAGES
+@import "./pages/main";
+@import "../pages/GamePage/game-page";

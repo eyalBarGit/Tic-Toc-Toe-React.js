@@ -1,0 +1,13 @@
+.board {
+    .main-content {
+        width: 500px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    @media (max-width: 540px) {
+        .main-content {
+            width: 300px;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        }
+    }
+}
