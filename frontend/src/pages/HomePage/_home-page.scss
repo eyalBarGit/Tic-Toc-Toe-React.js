@@ -1,11 +1,12 @@
 .home-page {
     position: relative;
     height: 100vh;
-    background: url("../../assets/home-background.png") no-repeat center center;
+    background: url("../../assets/chalkboard-background.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden;
     .players-name-section {
         width: 100%;
         position: absolute;

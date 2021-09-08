@@ -16,7 +16,7 @@ export function NavBar() {
     return (
         <div className="nav-bar flex flex-grow-1 space-between align-center">
             <div className="logo">
-                <img style={{ width: '100px' }} src={logo} alt="" />
+                <img style={{ width: '120px' }} src={logo} alt="" />
             </div>
 
             <ul className="nav-bar-btns flex">
